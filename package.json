@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^2.13.10",
-    "axios": "^0.17.1",
+    "apisauce": "^0.14.1",
     "moment": "^2.19.2",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
@@ -23,5 +23,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "theme": "./src/Common/theme.js"
 }

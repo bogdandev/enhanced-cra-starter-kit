@@ -1,0 +1,7 @@
+export const APP_STARTUP_REQUEST = 'app/APP_STARTUP_REQUEST'
+export const APP_STARTUP_SUCCESS = 'app/APP_STARTUP_SUCCESS'
+
+export const SET_ERROR = 'app/SET_ERROR'
+export const DISMISS_ERROR = 'app/DISMISS_ERROR'
+
+export const SET_AJAX_LOADING = 'app/SET_AJAX_LOADING'

@@ -1,14 +1,15 @@
-import axios from 'axios'
+import apisauce from 'apisauce'
 
 const baseURL = process.env.REACT_APP_API_URL || '/api/'
 
-const axiosInstance = axios.create({
+const requestInstance = apisauce.create({
   baseURL,
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
+    token: ''
   },
   timeout: 25000
 })
 
-export default axiosInstance
+export default requestInstance

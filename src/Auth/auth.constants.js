@@ -1,0 +1,14 @@
+export const LOGIN_REQUEST = 'auth/LOGIN_REQUEST'
+export const LOGIN_SUCCESS = 'auth/LOGIN_SUCCESS'
+export const LOGIN_FAILURE = 'auth/LOGIN_FAILURE'
+
+export const SIGNUP_REQUEST = 'auth/SIGNUP_REQUEST'
+export const SIGNUP_SUCCESS = 'auth/SIGNUP_SUCCESS'
+export const SIGNUP_FAILURE = 'auth/SIGNUP_FAILURE'
+
+export const LOGOUT_REQUEST = 'auth/LOGOUT_REQUEST'
+export const LOGOUT_SUCCESS = 'auth/LOGOUT_SUCCESS'
+
+export const UPDATE_USER_REQUEST = 'session/UPDATE_USER_REQUEST'
+export const UPDATE_USER_FAILURE = 'session/UPDATE_USER_FAILURE'
+export const UPDATE_USER_SUCCESS = 'session/UPDATE_USER_SUCCESS'

@@ -2,10 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 
+import './index.css'
+
 import App from './App'
 import createStore from './App.reducer'
+import { appStartupRequest } from './Common/common.actions'
 
-const store = createStore()
+const store = createStore(undefined, undefined, appStartupRequest)
 
 function render(Component, store) {
   ReactDOM.render(
