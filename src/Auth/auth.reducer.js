@@ -2,7 +2,7 @@ import * as actionTypes from './auth.constants'
 
 const initialState = {
   profile: {},
-  token: '',
+  token: '' || localStorage.getItem('appToken'),
   role: '',
   error: ''
 }
